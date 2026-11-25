@@ -135,7 +135,7 @@ int main()
                     printf("Vase volba: ");
                     scanf("%d", &cpuc);
 
-                    switch (cpu){
+                    switch (cpuc){
                         case 1:
                             printf("Vybral sis CPU chladic Endorfy\n");
                             printf("Odecteno 450 korun");
@@ -259,7 +259,7 @@ int main()
                             printf("Odecteno 3000 korun\n");
                             money -= 3000;
                             skore += 3;
-                            strcpy(jmenodisk, "ADATA 512GB SSD - 1600 korun\n");
+                            strcpy(jmenodisk, "Kingston 1TB SSD - 3000 korun\n");
                             break;
                     }
 
@@ -292,7 +292,7 @@ int main()
                             printf("Odecteno 1500 korun\n");
                             money -= 1500;
                             skore += 2;
-                            strcpy(jmenopsu, "Gigabyte 750W PSU - 2300 korun\n");
+                            strcpy(jmenopsu, "MSI 650W - 1500 korun\n");
                             break;
                     }
 
